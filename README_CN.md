@@ -84,6 +84,8 @@
 
 ## 4. 顶会与同行评审学术论文精选 (2023–2026)
 
+> 📚 **完整 34 篇论文逐篇深度拆解、CSV/BibTeX 文献库与《2023–2026 体系化综述》**：请访问姊妹专仓 **[`innflows/geo-aeo-papers`](https://github.com/innflows/geo-aeo-papers)**（[中文体系化综述 `SURVEY_CN.md`](https://github.com/innflows/geo-aeo-papers/blob/main/SURVEY_CN.md) · [34 篇逐篇中文解析 `README_CN.md`](https://github.com/innflows/geo-aeo-papers/blob/main/README_CN.md)）
+
 - **[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)** *(KDD 2024 · Princeton / Georgia Tech / Allen AI)* — 提出首个系统化 GEO 框架与 `GEO-bench` 基准，证实补充权威引用、定量统计数据与引语可将生成式搜索可见度提升最高达 `40%`，而传统关键词堆砌反而负向降权。
 - **[C-SEO Bench: Does Conversational SEO Work?](https://openreview.net/forum?id=oTeixD3oZO)** *(NeurIPS 2025)* — 在多方博弈视角下评估对话式搜索优化方法，揭示传统检索排序位置与事实信息密度依然是底层基石。
 - **[AutoGEO](https://openreview.net/forum?id=K8EinVWtUB)** *(ICLR 2026 · CMU)* — 从生成式引擎偏好中自动归纳文档重写规则，在保持事实一致性的前提下提升采信率。

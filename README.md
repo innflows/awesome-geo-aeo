@@ -99,6 +99,8 @@ This repository hosts machine-readable CSV datasets from empirical audits so res
 
 ## 4. Peer-Reviewed Research Papers (2023–2026)
 
+> 📚 **Full 34-Paper Annotated Bibliography, CSV/BibTeX Catalog & 2023–2026 Literature Survey**: **[`innflows/geo-aeo-papers`](https://github.com/innflows/geo-aeo-papers)** ([English Survey](https://github.com/innflows/geo-aeo-papers/blob/main/SURVEY.md) · [中文体系化综述与逐篇深度解读](https://github.com/innflows/geo-aeo-papers/blob/main/SURVEY_CN.md))
+
 ### Foundational GEO & Retrieval Mechanics
 
 - **[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)** *(KDD 2024 · Aggarwal et al., Princeton, Georgia Tech, Allen AI & IIT Delhi)* — Introduces the formal GEO benchmark (`GEO-bench`, 10k queries) and demonstrates up to `40%` relative visibility gains from verifiable statistics, inline citations, and authoritative quotations, while showing traditional keyword stuffing underperforms. ([ACM DOI](https://dl.acm.org/doi/10.1145/3637528.3671900))

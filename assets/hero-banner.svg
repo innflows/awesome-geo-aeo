@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Awesome GEO and AEO — The 3-Gate AI Search Retrieval and Citation Pipeline">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1117"/>
+      <stop offset="55%" stop-color="#111923"/>
+      <stop offset="100%" stop-color="#0d1b1e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16202c"/>
+      <stop offset="100%" stop-color="#111822"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#1e2d3d" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="48" y="34" width="188" height="26" rx="13" fill="#132f2e" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="142" y="51" text-anchor="middle" fill="#2dd4bf" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">AWESOME GEO &amp; AEO · 2026</text>
+
+  <text x="48" y="96" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="29" font-weight="800">Generative &amp; Answer Engine Optimization (GEO / AEO)</text>
+  <text x="48" y="124" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15">Peer-reviewed research, AI crawler specifications, open CSV benchmarks, templates &amp; multi-engine tooling</text>
+
+  <!-- Gate 1 -->
+  <rect x="48" y="152" width="344" height="172" rx="12" fill="url(#card)" stroke="#233549" stroke-width="1.5"/>
+  <rect x="48" y="152" width="344" height="4" rx="2" fill="#2dd4bf"/>
+  <text x="70" y="184" fill="#2dd4bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">GATE 01 · CRAWL &amp; EDGE ACCESS</text>
+  <text x="70" y="210" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Machine Discovery Layer</text>
+  <text x="70" y="236" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Split search vs. training bots in robots.txt</text>
+  <text x="70" y="258" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Prevent silent CDN/WAF HTTP 403/429 blocks</text>
+  <text x="70" y="280" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Publish valid plaintext /llms.txt (72% SaaS)</text>
+  <text x="70" y="304" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">OAI-SearchBot · Claude-SearchBot · PerplexityBot</text>
+
+  <!-- Arrow 1->2 -->
+  <path d="M398 238 L422 238" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="422,233 430,238 422,243" fill="#38bdf8"/>
+
+  <!-- Gate 2 -->
+  <rect x="434" y="152" width="344" height="172" rx="12" fill="url(#card)" stroke="#233549" stroke-width="1.5"/>
+  <rect x="434" y="152" width="344" height="4" rx="2" fill="#38bdf8"/>
+  <text x="456" y="184" fill="#38bdf8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">GATE 02 · QUERY FAN-OUT RECALL</text>
+  <text x="456" y="210" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Candidate Search Pool</text>
+  <text x="456" y="236" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• ChatGPT: 44.5% site: domain-targeted lookups</text>
+  <text x="456" y="258" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Gemini: 0% site: · 59.7% best/top/vs roundups</text>
+  <text x="456" y="280" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Overcome incumbent Brand Prior Gate via</text>
+  <text x="456" y="302" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">  directory co-occurrence &amp; comparison matrices</text>
+
+  <!-- Arrow 2->3 -->
+  <path d="M784 238 L808 238" stroke="#818cf8" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="808,233 816,238 808,243" fill="#818cf8"/>
+
+  <!-- Gate 3 -->
+  <rect x="820" y="152" width="332" height="172" rx="12" fill="url(#card)" stroke="#233549" stroke-width="1.5"/>
+  <rect x="820" y="152" width="332" height="4" rx="2" fill="#818cf8"/>
+  <text x="842" y="184" fill="#818cf8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">GATE 03 · PASSAGE &amp; ENTITY TRUST</text>
+  <text x="842" y="210" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Answer Grounding &amp; Citation</text>
+  <text x="842" y="236" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Initial SSR HTML extractability (no JS tabs)</text>
+  <text x="842" y="258" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• @id-linked Schema.org JSON-LD + sameAs</text>
+  <text x="842" y="280" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">• Quotable tables, specs &amp; verified statistics</text>
+  <text x="842" y="304" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">Organization · SoftwareApplication · FAQPage</text>
+</svg>

@@ -1,0 +1,10 @@
+schema_signal,domains_detected,reachable_homepages_n,pct_of_reachable_homepages,all_audited_domains_n,pct_of_all_audited_domains,audit_period,source_study_url
+Any JSON-LD Block,74,93,79.6,100,74.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+Organization,62,93,66.7,100,62.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+Stable @id Entity URI,50,93,53.8,100,50.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+WebSite,47,93,50.5,100,47.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+WebPage,23,93,24.7,100,23.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+SoftwareApplication,22,93,23.7,100,22.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+Corporation,5,93,5.4,100,5.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+Product,4,93,4.3,100,4.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+FAQPage,3,93,3.2,100,3.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study

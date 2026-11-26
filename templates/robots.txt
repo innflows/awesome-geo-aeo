@@ -1,0 +1,52 @@
+# ============================================================================
+# Production robots.txt Template for Generative Engine Optimization (GEO/AEO)
+# Specification: RFC 9309 (Robots Exclusion Protocol)
+#
+# Strategy shown below: "Surgical Training-vs-Retrieval Split"
+# - ALLOWS real-time AI search, grounding, and citation bots on public pages
+# - BLOCKS private app/account routes from all crawlers
+# - OPTS OUT of foundation-model pre-training (optional; remove Section 3 if
+#   you want your documentation included in future base model weights as well)
+# ============================================================================
+
+# 1. Default Search & Discovery Policy
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /app/
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /checkout/
+
+# 2. Explicitly Welcome AI Search & Live Citation Bots
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /api/
+Disallow: /app/
+Disallow: /dashboard/
+
+# 3. Optional: Restrict Foundation-Model Training Bots
+# Tip: Keep /pricing/ and core product overview pages readable if you want
+# pre-trained model weights to retain accurate pricing & category facts.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /$
+Allow: /pricing$
+Allow: /pricing/
+Allow: /llms.txt$
+Disallow: /
+
+# 4. Canonical XML Sitemap
+Sitemap: https://www.example.com/sitemap.xml

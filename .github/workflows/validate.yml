@@ -1,0 +1,20 @@
+name: Validate Benchmarks & Templates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: CSV, JSON-LD, SVG & Link Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run repository integrity suite
+        run: python3 scripts/validate_repo.py

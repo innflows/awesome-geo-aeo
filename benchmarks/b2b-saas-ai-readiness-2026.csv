@@ -1,0 +1,7 @@
+cohort,domains_audited,http_200_reachable_count,http_200_reachable_pct,valid_llms_txt_count,valid_llms_txt_pct,valid_llms_full_txt_count,valid_llms_full_txt_pct,jsonld_present_count,jsonld_all_pct,jsonld_of_reachable_pct,mean_readiness_score,perfect_100_score_count,perfect_100_score_pct,audit_period,source_study_url
+DevTools & Cloud Infra,20,19,95.0,18,90.0,9,45.0,19,95.0,100.0,94.5,18,90.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+"CRM, Marketing & Analytics",20,19,95.0,17,85.0,3,15.0,18,90.0,94.7,93.3,14,70.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+AI-Native & LLM Infra,20,20,100.0,14,70.0,2,10.0,13,65.0,65.0,89.5,11,55.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+Productivity & Design,20,20,100.0,13,65.0,3,15.0,14,70.0,70.0,89.0,10,50.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+"Fintech, Security & Data",20,15,75.0,10,50.0,3,15.0,10,50.0,66.7,72.2,7,35.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study
+All Audited B2B SaaS,100,93,93.0,72,72.0,20,20.0,74,74.0,79.6,87.7,60,60.0,2026-11,https://www.innflows.com/blog/seo/state-of-b2b-saas-ai-search-readiness-100-website-study

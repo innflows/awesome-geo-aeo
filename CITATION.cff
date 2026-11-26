@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these benchmarks, crawler specifications, or curated taxonomies in research or industry reports, please cite this repository."
+type: dataset
+title: "Awesome GEO & AEO: Generative and Answer Engine Optimization Research, AI Crawler Specifications & Open Benchmarks"
+authors:
+  - name: "Innflows Research"
+    website: "https://www.innflows.com"
+repository-code: "https://github.com/innflows/awesome-geo-aeo"
+url: "https://www.innflows.com"
+license: CC0-1.0
+version: "2026.11"
+date-released: "2026-11-26"
+keywords:
+  - generative-engine-optimization
+  - answer-engine-optimization
+  - geo
+  - aeo
+  - ai-search
+  - llm-seo
+  - llms-txt
+  - schema-org
+  - rag

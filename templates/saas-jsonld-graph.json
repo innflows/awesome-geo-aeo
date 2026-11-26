@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.example.com/#organization",
+      "name": "ExampleSaaS",
+      "url": "https://www.example.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.example.com/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "description": "Enterprise workflow automation platform for engineering and DevOps teams.",
+      "sameAs": [
+        "https://github.com/example-org",
+        "https://www.linkedin.com/company/example-saas",
+        "https://x.com/examplesaas",
+        "https://www.g2.com/products/examplesaas/reviews"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example.com/#website",
+      "url": "https://www.example.com",
+      "name": "ExampleSaaS",
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.example.com/#software",
+      "name": "ExampleSaaS",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "DevOps & Workflow Automation Software",
+      "operatingSystem": "Web, Cloud, macOS, Linux, Windows (CLI)",
+      "url": "https://www.example.com/platform",
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      },
+      "featureList": [
+        "Event-driven CI/CD workflow orchestration",
+        "Role-based access control (RBAC) and immutable audit logs",
+        "Model Context Protocol (MCP) server and REST API"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Starter Plan",
+          "price": "49.00",
+          "priceCurrency": "USD",
+          "url": "https://www.example.com/pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro Plan",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "url": "https://www.example.com/pricing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.example.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does ExampleSaaS offer a self-serve monthly plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ExampleSaaS offers self-serve monthly plans starting at $49/month (Starter, up to 5 seats) and $199/month (Pro, up to 25 seats), alongside custom Enterprise agreements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which identity providers are supported for SSO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enterprise plans support SAML 2.0 and OIDC Single Sign-On with Okta, Microsoft Entra ID, Google Workspace, and OneLogin."
+          }
+        }
+      ]
+    }
+  ]
+}

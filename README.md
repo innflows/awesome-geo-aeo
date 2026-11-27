@@ -147,6 +147,7 @@ This repository hosts machine-readable CSV datasets from empirical audits so res
 - **[`AnswerDotAI/llms-txt`](https://github.com/AnswerDotAI/llms-txt)** *(Apache-2.0)* — Reference specification, parser, and context-generation utilities for `/llms.txt`.
 - **[`danishashko/geo-aeo-tracker`](https://github.com/danishashko/geo-aeo-tracker)** *(Open Source)* — Self-hosted BYOK dashboard for running local prompt visibility checks across LLM APIs.
 - **[`amplifying-ai/ai-product-bench`](https://github.com/amplifying-ai/ai-product-bench)** *(Open Source)* — Evaluation harness for testing product recommendation recall across language models.
+- **[`bhavik-sarkhedi/person-engine-optimization`](https://github.com/bhavik-sarkhedi/person-engine-optimization)** *(MIT / CC)*: Open framework for how search engines and AI assistants understand and describe a person (Person schema, entity signals, citations), with docs and JSON-LD examples.
 - **[Google Rich Results Test](https://search.google.com/test/rich-results)** & **[Schema Markup Validator](https://validator.schema.org/)** — Free official validators for verifying JSON-LD syntax and Google rich-result eligibility.
 
 ### 6.2 Multi-Engine GEO & AEO Platforms (2026 Comparison Matrix)
